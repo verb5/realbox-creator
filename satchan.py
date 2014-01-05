@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from time import sleep
 from PySide.QtCore import *
 from PySide.QtGui import *
@@ -7,6 +8,8 @@ import sys,mainWindow
 import time,re,inspect,sqlite3
 
 
+BAZA='bazata'
+
 class getData(QThread):
     def __init__(self,parent=None):
         super(getData,self).__init__()
@@ -15,7 +18,7 @@ class getData(QThread):
         self.sati=appSat.dialog.satLista.currentText()
         self.satData=Satellite(sat=appSat.satelites[self.sati])
     #print 'gotovo %s'%self.satData.satParameters
-        self.satData.get()
+        self.satData.get(self.sati[-5:])
         #for trans in sorted(self.satData.satParameters):
         #    print trans
         #print sati
@@ -76,7 +79,14 @@ class SatApp(QDialog):
         #self.dialog.chanList2.setDragEnabled(True)
         #self.dialog.chanList1.setDragEnabled(True)
         self.populateList()
+        self.finished.connect(self.selected)
 
+    def selected(self):
+        baza=sqlite3.connect(BAZA)
+        c=baza.cursor()
+        c.execute('update parameters set selected=0')
+        baza.commit()
+        baza.close()
     def setAlert(self):
         self.dialog.status.setText('Loading..')
 
@@ -87,19 +97,24 @@ class SatApp(QDialog):
         #print 'trugna'
         #pulni s kanali listata
         self.model.clear()
-        sati=str(self.dialog.satLista.currentText()[-5:])
+        self.sati=str(self.dialog.satLista.currentText()[-5:])
         #print sati
-        baza=sqlite3.connect('bazata')
+        baza=sqlite3.connect(BAZA)
         c=baza.cursor()
         try:
-            c.execute('select channel from parameters where degree="%s"'%sati)
-            for channel in c.fetchall():
-                item=QStandardItem(channel[0])
-                item.setCheckState(Qt.Unchecked)
-                item.setCheckable(True)
+            c.execute('select channel,selected from parameters where degree="%s"'%self.sati)
+            for (channel,selected) in c.fetchall():
+                item=QStandardItem(channel)
+
                 item.setEditable(False)
                 item.setSelectable(True)
-
+                if selected == 1:
+                    item.setCheckState(Qt.Checked)
+                    item.setCheckable(False)
+                    item.setEnabled(False)
+                else:
+                    item.setCheckState(Qt.Unchecked)
+                    item.setCheckable(True)
                 #print item
                 self.model.appendRow(item)
                 print channel
@@ -123,16 +138,29 @@ class SatApp(QDialog):
                     print 'channel %s found on %s Mhz'%(chan,trans)
                     #print '[%s] parameters : %s'%(chan,self.tred.satData.satParameters)
     def transmit(self):
-        for i in range(self.model.rowCount()):
+        baza=sqlite3.connect(BAZA)
+        c=baza.cursor()
+        #c.execute('select channel,selected from parameters where degree="%s"'%self.sati)
+        c.execute('select count(*) from parameters where degree="%s"'%self.sati)
+        #for (chan,selekt) in c.fetchall():
+        for i in range(c.fetchone()[0]):
             if self.model.item(i).checkState() and self.model.item(i).isEnabled():
-
-                self.model2.appendRow(QStandardItem('%s'%self.model.item(i).text()))
-                #self.arangeNom()
-                #self.getChanPar(self.model.item(i).text())
+                programname=self.model.item(i).text()
+                self.model2.appendRow(QStandardItem('%s'%programname))
+            # c.execute('update parameters set selected=1 where degree="%s" and channel="%s"'%(self.sati,str(self.model.item(i).text())))
+            # baza.commit()
+            #
                 self.model.item(i).setEnabled(False)
                 self.model2.item(self.id).setEditable(False)
                 self.id+=1
+                #c=baza.cursor()
+                c.execute('update parameters set selected=1,transmited="%s" where degree="%s" and channel="%s"'%(self.id,self.sati,programname))
+                #print('update parameters set selected=1,transmited="%s" where degree="%s" and channel="%s"'%(self.sati,self.id,programname))
+            ###if self.model.item(chan).checkState() and self.model.item(chan).isEnabled():
 
+                #print i
+        baza.commit()
+        baza.close()
     def moveUp(self):
         #self.select=
         curRow=self.dialog.chanList2.selectedIndexes()[0].row()
@@ -143,7 +171,9 @@ class SatApp(QDialog):
             #print self.prevRow
             self.model2.item(curRow).setText(prevRowTxt)
             self.model2.item(curRow-1).setText(curRowTxt)
+            print curRow
             curRow-=1
+
         self.dialog.chanList2.selectRow(curRow)
 
     def moveDown(self):
@@ -154,8 +184,9 @@ class SatApp(QDialog):
             curRowTxt=self.model2.item(curRow).text()
             self.model2.item(curRow).setText(nextRowTxt)
             self.model2.item(curRow+1).setText(curRowTxt)
-
+            print curRow
             curRow+=1
+
         self.dialog.chanList2.selectRow(curRow)
 
 
