@@ -29,7 +29,7 @@ class Satellite:
         baza=sqlite3.connect('bazata')
         c=baza.cursor()
         #c.execute('drop table if exists parameters')
-        #c.execute('CREATE TABLE parameters(id integer primary key autoincrement,channel text,transponder text,fr int,lnb character,fec text,degree int,vpid int,apid int,sid int,nid int,tid int);')
+        c.execute('CREATE TABLE if not exists parameters(id integer primary key autoincrement,channel text,transponder text,fr int,lnb character,fec text,degree int,vpid int,apid int,sid int,nid int,tid int)')
         c.execute('delete from parameters where degree="%s"'%sate)
         baza.commit()
         #baza.close()
