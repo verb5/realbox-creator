@@ -82,6 +82,7 @@ class SatApp(QDialog):
         self.finished.connect(self.selected)
 
     def selected(self):
+
         baza=sqlite3.connect(BAZA)
         c=baza.cursor()
         c.execute('update parameters set selected=0')
@@ -101,6 +102,7 @@ class SatApp(QDialog):
         #print sati
         baza=sqlite3.connect(BAZA)
         c=baza.cursor()
+
         try:
             c.execute('select channel,selected from parameters where degree="%s"'%self.sati)
             for (channel,selected) in c.fetchall():
@@ -124,8 +126,11 @@ class SatApp(QDialog):
 
     def fetchChan(self):
         self.model.clear()
+        baza=sqlite3.connect(BAZA)
+        c=baza.cursor()
+        baza.commit()
+        baza.close()
         self.tred=getData()
-
         self.tred.started.connect(self.setAlert)
         self.tred.finished.connect(self.endAlert)
         self.tred.finished.connect(self.populateList)

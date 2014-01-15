@@ -18,20 +18,26 @@ class Satellite:
             #'tansponderChannels':[]
 
         }
-
+        self.baza=sqlite3.connect('bazata')
+        self.c=self.baza.cursor()
+        self.c.execute('CREATE TABLE if not exists parameters(channel text,transponder text,fr int,lnb character,fec text,degree int,vpid int,apid int,sid int,nid int,tid int,selected tinyint,transmited int)')
         self.channels=[]
+
+    def execQ(self,query):
+        self.c.execute(query)
+
     def get(self,sate):
         #self.sat=sat
         if self.sat:
             self.page=urllib2.urlopen(self.sat)
             self.soup=BeautifulSoup(self.page,"html5lib")
             conta=self.soup.find_all('table',class_='frq')
-        baza=sqlite3.connect('bazata')
-        c=baza.cursor()
+
+
         #c.execute('drop table if exists parameters')
-        c.execute('CREATE TABLE if not exists parameters(id integer primary key autoincrement,channel text,transponder text,fr int,lnb character,fec text,degree int,vpid int,apid int,sid int,nid int,tid int)')
-        c.execute('delete from parameters where degree="%s"'%sate)
-        baza.commit()
+
+        self.execQ('delete from parameters where degree="%s"'%sate)
+        self.baza.commit()
         #baza.close()
         #baza=sqlite3.connect('bazata')
         #c=baza.cursor()
@@ -59,13 +65,14 @@ class Satellite:
                     apid=el[9].get_text()
                     nid=self.satParameters[satFreq]['transponderParameters'][10][4:]
                     tid=self.satParameters[satFreq]['transponderParameters'][11][4:]
-                    c.execute('''insert into parameters(channel,transponder,fr,lnb,fec,degree,vpid,apid,sid,nid,tid) values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'''%(chanName,transponder,fr,lnb,fec,deg,vpid,apid,sid,nid,tid))
+                    #self.execQ('delete * from parameters where degree="%s"'%deg)
+                    self.execQ('''insert into parameters(channel,transponder,fr,lnb,fec,degree,vpid,apid,sid,nid,tid) values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'''%(chanName,transponder,fr,lnb,fec,deg,vpid,apid,sid,nid,tid))
 
 
             except Exception as e:
                 print 'error line 60 [%s]'%e
-        baza.commit()
-        baza.close()
+        self.baza.commit()
+        self.baza.close()
         #print self.satParameters
     def getParameters(self,transponder):
         for val in self.satParameters[transponder]['transponderParameters']:
@@ -73,6 +80,8 @@ class Satellite:
 
         print 'number of channels on this transponder : [%s]'%len(self.satParameters[transponder]['tansponderChannels'])
 
+    def __del__(self):
+        self.baza.close()
 
         #baza.commit()
         #baza.close()

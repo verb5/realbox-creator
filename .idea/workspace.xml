@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="137" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="142" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="85" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4423bdfb-6940-4aa7-8fe3-3b8e9aa298df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bazata" afterPath="$PROJECT_DIR$/bazata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kingofsat.py" afterPath="$PROJECT_DIR$/kingofsat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/proj0051.iml" afterPath="$PROJECT_DIR$/.idea/proj0051.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/satchan.py" afterPath="$PROJECT_DIR$/satchan.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj0051.iws" />
@@ -27,7 +26,7 @@
     <SUITE FILE_PATH="coverage/proj0051$testParse002.coverage" NAME="testParse002 Coverage Results" MODIFIED="1387622108126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$002.coverage" NAME="002 Coverage Results" MODIFIED="1387297353377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/proj006" />
     <SUITE FILE_PATH="coverage/proj0051$satchan_01.coverage" NAME="satchan-01 Coverage Results" MODIFIED="1387619554425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj006" />
-    <SUITE FILE_PATH="coverage/realbox-creator$satchan.coverage" NAME="satchan Coverage Results" MODIFIED="1389796948070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/realbox-creator$satchan.coverage" NAME="satchan Coverage Results" MODIFIED="1389812065531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/realbox-creator$005.coverage" NAME="005 Coverage Results" MODIFIED="1389798055205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/proj006" />
     <SUITE FILE_PATH="coverage/proj0051$testParse001.coverage" NAME="testParse001 Coverage Results" MODIFIED="1387618746456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$kingofsat_working.coverage" NAME="kingofsat-working Coverage Results" MODIFIED="1388755848708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj008" />
@@ -63,31 +62,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="satchan.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="satchan.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/satchan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="67" selection-start="4839" selection-end="4839" vertical-scroll-proportion="5.1089916" vertical-offset="90" max-vertical-offset="2940">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kingofsat.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kingofsat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="46" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1290">
+            <state line="130" column="17" selection-start="4421" selection-end="4421" vertical-scroll-proportion="-975.0" vertical-offset="0" max-vertical-offset="3105">
               <folding>
-                <marker date="1389797992096" expanded="true" signature="771:959" placeholder="CREATE TABLE..parameters..." />
+                <element signature="e#22#44#0" expanded="true" />
+                <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="005.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/proj006/005.py">
+      <file leaf-file-name="kingofsat.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kingofsat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
+            <state line="38" column="26" selection-start="1058" selection-end="1064" vertical-scroll-proportion="0.67341775" vertical-offset="289" max-vertical-offset="1425">
+              <folding>
+                <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +93,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="verb5" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -123,17 +121,17 @@
         <option value="$PROJECT_DIR$/../proj006/kingofsatBkp.py" />
         <option value="$PROJECT_DIR$/../proj008/kingofsat-working.py" />
         <option value="$PROJECT_DIR$/skica.py" />
-        <option value="$PROJECT_DIR$/satchan.py" />
-        <option value="$PROJECT_DIR$/kingofsat.py" />
         <option value="$USER_HOME$/PycharmProjects/proj006/005.py" />
+        <option value="$PROJECT_DIR$/kingofsat.py" />
+        <option value="$PROJECT_DIR$/satchan.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
-    <option name="y" value="25" />
+    <option name="y" value="1" />
     <option name="width" value="1368" />
-    <option name="height" value="721" />
+    <option name="height" value="769" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -180,6 +178,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realbox-creator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realbox-creator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -188,7 +196,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
@@ -207,7 +215,7 @@
       <recent name="$PROJECT_DIR$/../proj007" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.005">
+  <component name="RunManager" selected="Python.satchan">
     <configuration default="false" name="satchan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -464,8 +472,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.005" />
-        <item index="1" class="java.lang.String" itemvalue="Python.satchan" />
+        <item index="0" class="java.lang.String" itemvalue="Python.satchan" />
+        <item index="1" class="java.lang.String" itemvalue="Python.005" />
         <item index="2" class="java.lang.String" itemvalue="Python.skica" />
         <item index="3" class="java.lang.String" itemvalue="Python.kingofsat-working" />
         <item index="4" class="java.lang.String" itemvalue="Python.kingofsatBkp" />
@@ -496,6 +504,11 @@
       <created>1382538438472</created>
       <updated>1382538438472</updated>
     </task>
+    <task id="LOCAL-00001" summary="probe if parameters exists">
+      <created>1389798194712</created>
+      <updated>1389798194712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -519,47 +532,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="25" width="1368" height="721" extended-state="6" />
+    <frame x="-4" y="1" width="1368" height="769" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27729636" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27729636" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.72270364" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24885845" sideWeight="0.6013865" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16362253" sideWeight="0.6852174" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16362253" sideWeight="0.6902087" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39807382" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119584" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31478262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119584" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2680578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27729636" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27729636" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.72270364" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39807382" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119584" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119584" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24885845" sideWeight="0.6013865" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1640625" sideWeight="0.68804157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3165714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16362253" sideWeight="0.6902087" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30979133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -569,6 +584,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="probe if parameters exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="probe if parameters exists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,7 +606,10 @@
     <entry file="file://$PROJECT_DIR$/satchan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="17" selection-start="5992" selection-end="5992" vertical-scroll-proportion="0.0" vertical-offset="1949" max-vertical-offset="3030">
-          <folding />
+          <folding>
+            <element signature="e#22#44#0" expanded="true" />
+            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +617,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="9" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1290">
           <folding>
-            <marker date="1389797992096" expanded="true" signature="771:959" placeholder="CREATE TABLE..parameters..." />
+            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
           </folding>
         </state>
       </provider>
@@ -605,7 +625,10 @@
     <entry file="file://$PROJECT_DIR$/satchan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2490">
-          <folding />
+          <folding>
+            <element signature="e#22#44#0" expanded="true" />
+            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,31 +636,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="0" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1200">
           <folding>
-            <marker date="1389797992096" expanded="true" signature="771:959" placeholder="CREATE TABLE..parameters..." />
+            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/proj006/005.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
+        <state line="15" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.613079" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kingofsat.py">
+    <entry file="file://$PROJECT_DIR$/mainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="46" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1290">
-          <folding>
-            <marker date="1389797992096" expanded="true" signature="771:959" placeholder="CREATE TABLE..parameters..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/satchan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="67" selection-start="4839" selection-end="4839" vertical-scroll-proportion="5.1089916" vertical-offset="90" max-vertical-offset="2940">
-          <folding />
+        <state line="130" column="17" selection-start="4421" selection-end="4421" vertical-scroll-proportion="-975.0" vertical-offset="0" max-vertical-offset="3105">
+          <folding>
+            <element signature="e#22#44#0" expanded="true" />
+            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kingofsat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="1058" selection-end="1064" vertical-scroll-proportion="0.67341775" vertical-offset="289" max-vertical-offset="1425">
+          <folding>
+            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+          </folding>
         </state>
       </provider>
     </entry>
