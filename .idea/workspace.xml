@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="142" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="85" />
+    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="144" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/satchan.py" line="87" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4423bdfb-6940-4aa7-8fe3-3b8e9aa298df" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bazata" afterPath="$PROJECT_DIR$/bazata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kingofsat.py" afterPath="$PROJECT_DIR$/kingofsat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/satchan.py" afterPath="$PROJECT_DIR$/satchan.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj0051.iws" />
@@ -23,15 +26,15 @@
     <SUITE FILE_PATH="coverage/proj0051$testParse002.coverage" NAME="testParse002 Coverage Results" MODIFIED="1387622108126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$002.coverage" NAME="002 Coverage Results" MODIFIED="1387297353377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/proj006" />
     <SUITE FILE_PATH="coverage/proj0051$satchan_01.coverage" NAME="satchan-01 Coverage Results" MODIFIED="1387619554425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj006" />
-    <SUITE FILE_PATH="coverage/realbox-creator$satchan.coverage" NAME="satchan Coverage Results" MODIFIED="1389812065531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/realbox-creator$satchan.coverage" NAME="satchan Coverage Results" MODIFIED="1390216156294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/realbox-creator$005.coverage" NAME="005 Coverage Results" MODIFIED="1389798055205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/proj006" />
     <SUITE FILE_PATH="coverage/proj0051$testParse001.coverage" NAME="testParse001 Coverage Results" MODIFIED="1387618746456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$kingofsat_working.coverage" NAME="kingofsat-working Coverage Results" MODIFIED="1388755848708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj008" />
     <SUITE FILE_PATH="coverage/proj0051$kingofsat.coverage" NAME="kingofsat Coverage Results" MODIFIED="1387619401673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proj0051$test002.coverage" NAME="test002 Coverage Results" MODIFIED="1384595627462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj007" />
     <SUITE FILE_PATH="coverage/proj0051$satchan.coverage" NAME="satchan Coverage Results" MODIFIED="1388771876506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/proj0051$sql.coverage" NAME="sql Coverage Results" MODIFIED="1387619023312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj007" />
+    <SUITE FILE_PATH="coverage/proj0051$test002.coverage" NAME="test002 Coverage Results" MODIFIED="1384595627462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj007" />
     <SUITE FILE_PATH="coverage/proj0051$003.coverage" NAME="003 Coverage Results" MODIFIED="1387375201179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/proj006" />
+    <SUITE FILE_PATH="coverage/proj0051$sql.coverage" NAME="sql Coverage Results" MODIFIED="1387619023312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj007" />
     <SUITE FILE_PATH="coverage/proj0051$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1387618735329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$mainWindow.coverage" NAME="mainWindow Coverage Results" MODIFIED="1387619391071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/proj0051$test02__1_.coverage" NAME="test02 (1) Coverage Results" MODIFIED="1387618895402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../proj008" />
@@ -59,24 +62,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="satchan.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="satchan.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/satchan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="17" selection-start="4421" selection-end="4421" vertical-scroll-proportion="-975.0" vertical-offset="0" max-vertical-offset="3105">
+            <state line="205" column="26" selection-start="7865" selection-end="7865" vertical-scroll-proportion="0.43324938" vertical-offset="2813" max-vertical-offset="3210">
               <folding>
-                <element signature="e#22#44#0" expanded="true" />
-                <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+                <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+                <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kingofsat.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kingofsat.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kingofsat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="26" selection-start="1058" selection-end="1064" vertical-scroll-proportion="0.67341775" vertical-offset="289" max-vertical-offset="1425">
+            <state line="87" column="0" selection-start="3457" selection-end="3457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
               <folding>
-                <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+                <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
               </folding>
             </state>
           </provider>
@@ -125,10 +128,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
     <option name="y" value="1" />
-    <option name="width" value="1368" />
-    <option name="height" value="769" />
+    <option name="width" value="1360" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -509,7 +511,11 @@
       <created>1389815583949</created>
       <updated>1389815583949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="probe if parameters exists">
+      <created>1389815598523</created>
+      <updated>1389815598523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -533,25 +539,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="1" width="1368" height="769" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="1" width="1360" height="766" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27729636" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.72270364" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24885845" sideWeight="0.6013865" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16362253" sideWeight="0.6902087" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16362253" sideWeight="0.7328" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39807382" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119584" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2680578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="67" y="325" width="1293" height="198" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -596,20 +602,63 @@
           <line>1</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/kingofsat.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/satchan.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="26" selection-start="7469" selection-end="7469" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="3090">
+          <folding>
+            <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kingofsat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="21" selection-start="3428" selection-end="3428" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="1425">
+          <folding>
+            <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satchan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="17" selection-start="4421" selection-end="4421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3105">
+          <folding>
+            <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kingofsat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="1058" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1395">
+          <folding>
+            <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satchan.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="17" selection-start="5992" selection-end="5992" vertical-scroll-proportion="0.0" vertical-offset="1949" max-vertical-offset="3030">
           <folding>
-            <element signature="e#22#44#0" expanded="true" />
-            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
           </folding>
         </state>
       </provider>
@@ -618,7 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="9" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1290">
           <folding>
-            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+            <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
           </folding>
         </state>
       </provider>
@@ -627,8 +676,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2490">
           <folding>
-            <element signature="e#22#44#0" expanded="true" />
-            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
           </folding>
         </state>
       </provider>
@@ -637,45 +686,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="0" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1200">
           <folding>
-            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+            <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/proj006/005.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.613079" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1389798053020" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="15" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.613079" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kingofsat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="3457" selection-end="3457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+          <folding>
+            <marker date="1390210463643" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/satchan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="17" selection-start="4421" selection-end="4421" vertical-scroll-proportion="-975.0" vertical-offset="0" max-vertical-offset="3105">
+        <state line="205" column="26" selection-start="7865" selection-end="7865" vertical-scroll-proportion="0.43324938" vertical-offset="2813" max-vertical-offset="3210">
           <folding>
-            <element signature="e#22#44#0" expanded="true" />
-            <marker date="1389812147936" expanded="true" signature="3098:3130" placeholder="update param..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kingofsat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="1058" selection-end="1064" vertical-scroll-proportion="0.67341775" vertical-offset="289" max-vertical-offset="1425">
-          <folding>
-            <marker date="1389811987948" expanded="true" signature="479:662" placeholder="CREATE TABLE..parameters..." />
+            <marker date="1390211891227" expanded="true" signature="3162:3194" placeholder="update param..." />
+            <marker date="1390211891227" expanded="true" signature="7646:7745" placeholder="select chann..parameters..." />
           </folding>
         </state>
       </provider>

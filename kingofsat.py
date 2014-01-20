@@ -57,12 +57,12 @@ class Satellite:
                     provider='satoperator'
                     transponder=satFreq
                     fr=self.satParameters[satFreq]['transponderParameters'][3]
-                    lnb=self.satParameters[satFreq]['transponderParameters'][4]
+                    lnb=self.satParameters[satFreq]['transponderParameters'][8][:5]
                     fec=self.satParameters[satFreq]['transponderParameters'][8][-3:]
                     deg=self.satParameters[satFreq]['transponderParameters'][0][:4]+self.satParameters[satFreq]['transponderParameters'][0][5:]
                     sid=el[7].get_text()
                     vpid=el[8].get_text()
-                    apid=el[9].get_text()
+                    apid=el[9].get_text()[:4]
                     nid=self.satParameters[satFreq]['transponderParameters'][10][4:]
                     tid=self.satParameters[satFreq]['transponderParameters'][11][4:]
                     #self.execQ('delete * from parameters where degree="%s"'%deg)
@@ -80,8 +80,6 @@ class Satellite:
 
         print 'number of channels on this transponder : [%s]'%len(self.satParameters[transponder]['tansponderChannels'])
 
-    def __del__(self):
-        self.baza.close()
 
         #baza.commit()
         #baza.close()

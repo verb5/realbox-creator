@@ -80,6 +80,8 @@ class SatApp(QDialog):
         #self.dialog.chanList1.setDragEnabled(True)
         self.populateList()
         self.finished.connect(self.selected)
+        self.dialog.uploadBtn.clicked.connect(self.createList)
+
 
     def selected(self):
 
@@ -194,6 +196,17 @@ class SatApp(QDialog):
 
         self.dialog.chanList2.selectRow(curRow)
 
+    def createList(self):
+        baza=sqlite3.connect(BAZA)
+        #[chan-name] [provider] [Transponder] [H/V + FEC] [S+Degree] [SymRate] [VPID][APID][APID2][0][SID][nid][tid][0]
+        c=baza.cursor()
+        fFail=open('lista','w')
+        c.execute('select channel,transponder,fr,lnb,fec,degree,vpid,apid,sid,nid,tid from parameters where selected=1')
+        for (channel,transponder,fr,lnb,fec,degree,vpid,apid,sid,nid,tid) in c.fetchall():
+            fr=str(fr)+"C"+fec.replace("/","")
+            degree="S"+degree
+
+            fFail.write("%s;%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s\n"%(channel,"provider",transponder,fr,degree,lnb,vpid,apid,0,sid,nid,tid,0))
 
 app=QApplication(sys.argv)
 appSat=SatApp()
